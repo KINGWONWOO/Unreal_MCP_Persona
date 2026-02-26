@@ -55,7 +55,7 @@ https://github.com/user-attachments/assets/388e9769-66ab-4b57-a38c-5626b23aebde
 
 ### 📌 사용 환경
 - Claude (MCP 서버 연동)
-- Blender 3.x
+- Blender 3
 - unreal-blender-mcp 브릿지
 - Python 3.10+
 - uv 패키지 매니저
