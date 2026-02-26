@@ -30,9 +30,7 @@
 
 [YouTube : MCP Persona 실습 영상](https://youtu.be/kqBEaP85d0M?si=sfnrLVSdC0KkfLN4)
 
-
-https://github.com/user-attachments/assets/388e9769-66ab-4b57-a38c-5626b23aebde
-
+https://github.com/user-attachments/assets/87516446-e6b1-46c6-830a-2ed982bd57e8
 
 ---
 
