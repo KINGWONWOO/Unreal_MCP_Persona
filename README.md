@@ -26,7 +26,6 @@
 ## 🎥 2. 프로젝트 영상 (Demo Video)
 
 > *아래 링크를 클릭하면 유튜브에서 고화질로 시청할 수 있습니다. (YouTube)*
-> *특히나 이번 영상은 깃헙 업로드를 위해 압축을 많이 진행했습니다. 이에 음질과 화질 품질이 매우 낮은 점 양해바랍니다.*
 
 [YouTube : MCP Persona 실습 영상](https://youtu.be/kqBEaP85d0M?si=sfnrLVSdC0KkfLN4)
 
