@@ -78,9 +78,10 @@ uv pip install -e .
 ```
 
 서버 실행:
-'''
+
+```
 uvx unreal-blender-mcp
-'''
+```
 
 ### 2️⃣ Claude 설정 파일 수정
 
