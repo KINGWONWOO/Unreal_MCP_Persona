@@ -124,7 +124,7 @@ Claude에게 다음과 같은 작업을 요청하며 제작을 진행했다.
 Blender 노드 기반 쉐이더는 Unreal과 완전 호환되지 않기 때문에
 텍스처 기반 PBR 워크플로우로 전환했다.
 
-## 📌 Nano Banana MCP 연결
+#### 📌 Nano Banana MCP 연결
 
 ```
 uv pip install nanobanana-pro-mcp
