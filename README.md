@@ -4,7 +4,7 @@
 
 > **"AI와 게임 엔진을 연결해 제작 파이프라인을 자동화하다."**  
 >
-> 본 프로젝트는 MCP(Claude) – Blender – Unreal Engine을 연동하여 게임 Persona3의 한 장면을 재현했습니다. 제작 파이프라인을 구축하고 자동화 흐름을 연구한 프로젝트입니다.
+> 본 프로젝트는 MCP(Claude) – Blender – Unreal Engine을 연동하여 게임 Persona3에서 영감을 받은 한 장면을 재현했습니다. 제작 파이프라인을 구축하고 자동화 흐름을 연구한 프로젝트입니다.
 
 ---
 
@@ -54,8 +54,9 @@ https://github.com/user-attachments/assets/388e9769-66ab-4b57-a38c-5626b23aebde
 ## 🔗 MCP – Blender – Unreal 파이프라인 구축 기록
 
 ### 📌 사용 환경
+- Unreal 5.5
 - Claude (MCP 서버 연동)
-- Blender 3
+- Blender 4.3
 - unreal-blender-mcp 브릿지
 - Python 3.10+
 - uv 패키지 매니저
@@ -135,7 +136,7 @@ Claude 설정에 추가:
   "mcpServers": {
     "nanobanana": {
       "command": "uvx",
-      "args": ["nanobanana-pro-mcp", "--api-key=MY_KEY". "--output-dir=./Content/Textures"]
+      "args": ["nanobanana-pro-mcp", "--api-key=MY_KEY", "--output-dir=./Content/Textures"]
     }
   }
 }
@@ -157,7 +158,7 @@ Unreal 프로젝트 Content/Textures/Stone 폴더에 저장해줘.
 Blender에서는 복잡한 노드 대신 텍스처 기반 PBR 구성으로 정리했다.
 
 ### 🔄 3. Blender → Unreal 파이프라인
-에드온 및 플러그인을 활용해서 Blender에서 Mesh 수정 시 바로 Unreal에서 변화를 확인할 수 있도록 연결
+에드온 및 플러그인을 활용해서 Blender에서 수정 후 Send to Unreal을 실행하면 Unreal에서 자동 Reimport되도록 파이프라인을 구성했다.
 
 #### Blender 에드온 설정
   1. Add-ons **send2ue.zip**을 다운받은 후 Blender에 적용
